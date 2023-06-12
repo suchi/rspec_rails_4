@@ -1,8 +1,8 @@
 GIT
-  remote: git://github.com/sporkrb/spork-rails.git
-  revision: 3224f84d8c31fcb0894e9a43f6c3ac67e3aa0d71
+  remote: https://github.com/sporkrb/spork-rails.git
+  revision: 0dd45e59d3237b4c8f9efc215b46d9c07072a95e
   specs:
-    spork-rails (3.2.1)
+    spork-rails (4.0.0)
       rails (>= 3.0.0, < 5)
       spork (>= 1.0rc0)
 
@@ -101,16 +101,18 @@ GEM
       treetop (~> 1.4.8)
     method_source (0.8.2)
     mime-types (1.25)
-    mini_portile (0.5.1)
+    mini_portile2 (2.8.2)
     minitest (4.7.5)
     multi_json (1.7.9)
-    nokogiri (1.6.0)
-      mini_portile (~> 0.5.0)
+    nokogiri (1.15.2)
+      mini_portile2 (~> 2.8.2)
+      racc (~> 1.4)
     polyglot (0.3.3)
     pry (0.9.12.2)
       coderay (~> 1.0.5)
       method_source (~> 0.8)
       slop (~> 3.4)
+    racc (1.7.0)
     rack (1.5.2)
     rack-test (0.6.2)
       rack (>= 1.0)
